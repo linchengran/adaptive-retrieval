@@ -1,0 +1,36 @@
+{
+  "n_train": 72,
+  "positive_rate": 0.3194,
+  "cv": {
+    "auc": 0.6087,
+    "tp": 17,
+    "fp": 24,
+    "fn": 6,
+    "tn": 25
+  },
+  "baselines": {
+    "all_fast(全免rerank)": {
+      "accuracy": 0.6805555555555556
+    },
+    "all_slow(全量rerank)": {
+      "accuracy": 1.0
+    },
+    "agreement规则": {
+      "accuracy": 0.5694444444444444
+    },
+    "learned_LR": {
+      "accuracy": 0.5833333333333334,
+      "auc": 0.6087
+    }
+  },
+  "feature_importance": {
+    "top1_agreement": -1.0771,
+    "top3_overlap": 0.1804,
+    "m12": -0.4104,
+    "m15": -0.1582,
+    "dense_top1_score": 0.0848,
+    "dense_score_entropy": -0.1317,
+    "ascii_ratio": -0.47,
+    "query_len": -0.0664
+  }
+}

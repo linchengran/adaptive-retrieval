@@ -1,0 +1,563 @@
+{
+  "description": "测试集 v2 = 原 held-out test.json 精确并入 10 条（heldout_v1）+ 基于原 17 条改述 10 条（paraphrase_v2）+ 按 chunk 内容新写 35 条（synthetic_v2），共 55 条。标注原则：问题必须能由标注 chunk 原文回答。",
+  "items": [
+    {
+      "question": "什么是神经网络？",
+      "relevant_sources": [
+        "01_faq.txt",
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::5",
+        "03_learning_path.txt::2"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "做机器人方向需要什么硬件基础？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::3"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "我们学校毕业生就业去向有哪些？",
+      "relevant_sources": [
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "04_school_info.txt::4"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "大一到大四的课程节奏是怎么安排的？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::1"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "学人工智能需要哪些数学基础？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::1"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "编程零基础能跟上人工智能专业吗？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::3"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "学人工智能需要什么配置的电脑？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::4"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "人工智能专业学什么编程语言？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::2"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "Python 学到什么程度才算够用？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::6"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "大一有必要参加数学建模或编程竞赛吗？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::7"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "人工智能专业的就业前景怎么样？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::8"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "NLP 和机器人方向的核心区别是什么？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::6",
+        "02_directions.txt::3"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "如何判断自己更适合机器人还是 NLP？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::2"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "机器人方向要学 C++ 和 ROS 吗？我们学校的情况",
+      "relevant_sources": [
+        "02_directions.txt",
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::3"
+      ],
+      "origin": "paraphrase_v2"
+    },
+    {
+      "question": "NLP 方向就业前景怎么样？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::1"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "机器人方向有哪些核心课程？",
+      "relevant_sources": [
+        "02_directions.txt",
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::3"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "AI专业毕业一定要读研吗？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::3"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "建议大三参加竞赛吗？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::7"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "人工智能专业需要学习 Linux 吗？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::2"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "AI 专业有哪些经典书籍推荐？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::1"
+      ],
+      "origin": "heldout_v1"
+    },
+    {
+      "question": "人工智能和机器学习是什么关系？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::5"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "深度学习和大语言模型有什么联系？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::5"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "初学者适合做什么 Python 小项目练手？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::3"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "代码报错太多怎么办？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::3"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "跑深度学习模型对 CPU 和显卡有什么要求？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::4"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "想学数据分析要掌握哪些 Python 库？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::6",
+        "01_faq.txt::2"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "参加 Kaggle 或 ACM 竞赛对找工作有帮助吗？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::8"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "企业招聘人工智能人才时看重学历还是能力？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::8"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "自然语言处理方向是研究什么的？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::1"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "喜欢读书写作适合选 NLP 方向吗？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::2"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "机器人方向的技术栈为什么要学 C++ 和 ROS？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::3"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "NLP 方向对数学证明的要求高吗？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::4"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "Hugging Face 是哪个方向常用的库？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::4"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "大二选了方向之后还能改吗？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::5"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "选方向时太焦虑怎么办？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::5",
+        "02_directions.txt::7"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "语音处理方向有哪些应用？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::7"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "知识图谱技术用在哪些场景？",
+      "relevant_sources": [
+        "02_directions.txt"
+      ],
+      "relevant_chunks": [
+        "02_directions.txt::7"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "大一下学期可以开始看什么机器学习资料？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::1"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "大二开始要进入哪些专业核心课程？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::1"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "深度学习需要掌握神经网络和 CNN 吗？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::2"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "秋招要从大几开始准备？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::3"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "保研需要具备哪些条件？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::3"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "斯坦福 CS224N 是学什么的课程？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::4"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "机器人方向能做什么动手项目？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::5"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "技术问题可以去哪些社区求助？",
+      "relevant_sources": [
+        "03_learning_path.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::6"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "学习人工智能最有效的方式是什么？",
+      "relevant_sources": [
+        "03_learning_path.txt",
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "03_learning_path.txt::6"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "本校人工智能专业的人才培养模式是什么？",
+      "relevant_sources": [
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "04_school_info.txt::1"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "实践教学分哪几个层次？",
+      "relevant_sources": [
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "04_school_info.txt::1"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "自然语言处理方向开设哪些课程？",
+      "relevant_sources": [
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "04_school_info.txt::2"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "文本分类与情感分析安排在第几学期？",
+      "relevant_sources": [
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "04_school_info.txt::2"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "本校人工智能专业的培养目标是什么？",
+      "relevant_sources": [
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "04_school_info.txt::3"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "人工智能专业毕业生主要面向哪些产业就业？",
+      "relevant_sources": [
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "04_school_info.txt::4"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "系统架构师属于哪个就业方向？",
+      "relevant_sources": [
+        "04_school_info.txt"
+      ],
+      "relevant_chunks": [
+        "04_school_info.txt::4"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "Ryzen 处理器的电脑能用来学人工智能吗？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::4"
+      ],
+      "origin": "synthetic_v2"
+    },
+    {
+      "question": "PyTorch 是做什么用的？",
+      "relevant_sources": [
+        "01_faq.txt"
+      ],
+      "relevant_chunks": [
+        "01_faq.txt::2"
+      ],
+      "origin": "synthetic_v2"
+    }
+  ]
+}

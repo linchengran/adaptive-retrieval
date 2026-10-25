@@ -1,0 +1,14 @@
+{
+ "wx": {
+  "corpus": "long",
+  "fast": 0.491,
+  "auto": 0.709,
+  "best": 0.709
+ },
+ "dureader": {
+  "corpus": "short",
+  "fast": 0.485,
+  "auto": 0.615,
+  "best": 0.615
+ }
+}

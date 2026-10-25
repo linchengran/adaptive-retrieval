@@ -1,0 +1,9 @@
+{
+  "source": "zyznull/dureader-retrieval-ranking dev",
+  "n_queries": 200,
+  "n_passages": 799,
+  "n_chunks": 1066,
+  "neg_per_query": 3,
+  "seed": 42,
+  "chunk_size": 512
+}

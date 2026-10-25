@@ -1,0 +1,13 @@
+{
+  "source": "C-MTEB/T2Retrieval + mteb/T2Retrieval qrels",
+  "n_queries": 200,
+  "n_docs": 1559,
+  "n_chunks": 3730,
+  "neg_per_query": 3,
+  "neg_source": "BM25 top-3 from pool 15886 (seed 42)",
+  "seed": 42,
+  "chunk_size": 512,
+  "chunk_overlap": 64,
+  "avg_chunk_chars": 400.8,
+  "cleaning": "t2retrieval: <br>→\\n + strip HTML tags"
+}

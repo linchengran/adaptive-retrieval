@@ -1,0 +1,1541 @@
+{
+  "meta": {
+    "timestamp": "2026-10-07 19:50:50",
+    "testset": "D:\\claude code use\\rag-research-project\\experiments\\splits\\test.json",
+    "n_queries": 17,
+    "top_k": 5,
+    "note": "M1 基线；语料与索引复用 wx 程序 server"
+  },
+  "arms": {
+    "dense": {
+      "avg_metrics": {
+        "hit@1": 0.6471,
+        "recall@1": 0.3104,
+        "mrr@1": 0.6471,
+        "ndcg@1": 0.6471,
+        "hit@3": 0.8824,
+        "recall@3": 0.635,
+        "mrr@3": 0.7549,
+        "ndcg@3": 0.7003,
+        "hit@5": 0.9412,
+        "recall@5": 0.7644,
+        "mrr@5": 0.7696,
+        "ndcg@5": 0.7026
+      },
+      "latency": {
+        "p50_ms": 9.34,
+        "p95_ms": 10.08,
+        "mean_ms": 9.36
+      },
+      "per_query": [
+        {
+          "question": "什么是神经网络？",
+          "retrieved_ids": [
+            "02_directions.txt::1",
+            "01_faq.txt::5",
+            "02_directions.txt::7",
+            "02_directions.txt::6",
+            "02_directions.txt::2"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::5",
+            "03_learning_path.txt::2"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.38685280723454163,
+            "hit@5": 1.0,
+            "recall@5": 0.5,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.38685280723454163
+          }
+        },
+        {
+          "question": "人工智能专业需要学习 Linux 吗？",
+          "retrieved_ids": [
+            "01_faq.txt::2",
+            "01_faq.txt::6",
+            "01_faq.txt::5",
+            "01_faq.txt::8",
+            "01_faq.txt::7"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::6"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.6309297535714575,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.6309297535714575
+          }
+        },
+        {
+          "question": "人工智能、机器学习、深度学习有什么区别？",
+          "retrieved_ids": [
+            "01_faq.txt::5",
+            "01_faq.txt::4",
+            "01_faq.txt::8",
+            "01_faq.txt::1",
+            "01_faq.txt::7"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::4",
+            "01_faq.txt::5",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.3333333333333333,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6666666666666666,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.7653606369886217,
+            "hit@5": 1.0,
+            "recall@5": 0.6666666666666666,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.7653606369886217
+          }
+        },
+        {
+          "question": "做机器人方向需要什么硬件基础？",
+          "retrieved_ids": [
+            "02_directions.txt::3",
+            "02_directions.txt::2",
+            "02_directions.txt::7",
+            "02_directions.txt::4",
+            "02_directions.txt::6"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::4",
+            "01_faq.txt::6"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 0.0,
+            "recall@3": 0.0,
+            "mrr@3": 0.0,
+            "ndcg@3": 0.0,
+            "hit@5": 1.0,
+            "recall@5": 0.5,
+            "mrr@5": 0.25,
+            "ndcg@5": 0.2640681225725909
+          }
+        },
+        {
+          "question": "AI专业毕业一定要读研吗？",
+          "retrieved_ids": [
+            "01_faq.txt::8",
+            "01_faq.txt::6",
+            "01_faq.txt::2",
+            "01_faq.txt::5",
+            "01_faq.txt::7"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::8"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "机器人方向有哪些核心课程？",
+          "retrieved_ids": [
+            "02_directions.txt::0",
+            "02_directions.txt::4",
+            "02_directions.txt::2",
+            "02_directions.txt::7",
+            "02_directions.txt::1"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::4",
+            "02_directions.txt::2",
+            "04_school_info.txt::2",
+            "03_learning_path.txt::2",
+            "02_directions.txt::0",
+            "03_learning_path.txt::4",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.14285714285714285,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.42857142857142855,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 0.42857142857142855,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.7227265726449519
+          }
+        },
+        {
+          "question": "NLP 方向就业前景怎么样？",
+          "retrieved_ids": [
+            "02_directions.txt::1",
+            "02_directions.txt::2",
+            "02_directions.txt::4",
+            "02_directions.txt::5",
+            "02_directions.txt::7"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::1"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "如何判断自己更适合机器人还是 NLP？",
+          "retrieved_ids": [
+            "02_directions.txt::2",
+            "02_directions.txt::5",
+            "02_directions.txt::0",
+            "02_directions.txt::1",
+            "02_directions.txt::6"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::5"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.6309297535714575,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.6309297535714575
+          }
+        },
+        {
+          "question": "我们学校机器人方向需要学C++和ROS吗？",
+          "retrieved_ids": [
+            "02_directions.txt::3",
+            "02_directions.txt::4",
+            "02_directions.txt::5",
+            "02_directions.txt::0",
+            "02_directions.txt::6"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::3",
+            "02_directions.txt::4",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.4,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.7653606369886217,
+            "hit@5": 1.0,
+            "recall@5": 0.4,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.5531464700081437
+          }
+        },
+        {
+          "question": "AI 专业有哪些经典书籍推荐？",
+          "retrieved_ids": [
+            "01_faq.txt::5",
+            "01_faq.txt::8",
+            "01_faq.txt::1",
+            "01_faq.txt::2",
+            "01_faq.txt::7"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::5"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 0.0,
+            "recall@3": 0.0,
+            "mrr@3": 0.0,
+            "ndcg@3": 0.0,
+            "hit@5": 0.0,
+            "recall@5": 0.0,
+            "mrr@5": 0.0,
+            "ndcg@5": 0.0
+          }
+        },
+        {
+          "question": "以项目驱动学习是什么意思？",
+          "retrieved_ids": [
+            "03_learning_path.txt::6",
+            "02_directions.txt::6",
+            "02_directions.txt::7",
+            "02_directions.txt::1",
+            "01_faq.txt::5"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::6",
+            "03_learning_path.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.5,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.6131471927654584,
+            "hit@5": 1.0,
+            "recall@5": 0.5,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.6131471927654584
+          }
+        },
+        {
+          "question": "建议大三参加竞赛吗？",
+          "retrieved_ids": [
+            "03_learning_path.txt::2",
+            "03_learning_path.txt::6",
+            "03_learning_path.txt::1",
+            "01_faq.txt::8",
+            "03_learning_path.txt::0"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::2",
+            "01_faq.txt::8"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.5,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.6131471927654584,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.8772153153380493
+          }
+        },
+        {
+          "question": "本专业的专业任选课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::4",
+            "04_school_info.txt::3",
+            "04_school_info.txt::2",
+            "04_school_info.txt::1"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "本专业的专业主干课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4",
+            "04_school_info.txt::2",
+            "04_school_info.txt::1"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "本专业修业年限是几年？",
+          "retrieved_ids": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::3",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::4"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "我们学校毕业生就业去向有哪些？",
+          "retrieved_ids": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4",
+            "02_directions.txt::0",
+            "02_directions.txt::7"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 0.3333333333333333,
+            "ndcg@3": 0.5,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 0.3333333333333333,
+            "ndcg@5": 0.5
+          }
+        },
+        {
+          "question": "本专业的专业基础课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::4",
+            "04_school_info.txt::3",
+            "04_school_info.txt::2",
+            "04_school_info.txt::1"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        }
+      ]
+    },
+    "bm25": {
+      "avg_metrics": {
+        "hit@1": 0.5294,
+        "recall@1": 0.3196,
+        "mrr@1": 0.5294,
+        "ndcg@1": 0.5294,
+        "hit@3": 0.8824,
+        "recall@3": 0.5986,
+        "mrr@3": 0.7059,
+        "ndcg@3": 0.6475,
+        "hit@5": 0.8824,
+        "recall@5": 0.7409,
+        "mrr@5": 0.7059,
+        "ndcg@5": 0.677
+      },
+      "latency": {
+        "p50_ms": 0.23,
+        "p95_ms": 0.39,
+        "mean_ms": 0.24
+      },
+      "per_query": [
+        {
+          "question": "什么是神经网络？",
+          "retrieved_ids": [
+            "02_directions.txt::5",
+            "01_faq.txt::5",
+            "03_learning_path.txt::2",
+            "01_faq.txt::4",
+            "01_faq.txt::0"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::5",
+            "03_learning_path.txt::2"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.6934264036172708,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.6934264036172708
+          }
+        },
+        {
+          "question": "人工智能专业需要学习 Linux 吗？",
+          "retrieved_ids": [
+            "01_faq.txt::6",
+            "02_directions.txt::5",
+            "02_directions.txt::3",
+            "01_faq.txt::2",
+            "02_directions.txt::4"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::6"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "人工智能、机器学习、深度学习有什么区别？",
+          "retrieved_ids": [
+            "01_faq.txt::4",
+            "02_directions.txt::5",
+            "01_faq.txt::3",
+            "01_faq.txt::0",
+            "03_learning_path.txt::1"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::4",
+            "01_faq.txt::5",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.3333333333333333,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.3333333333333333,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.46927872602275644,
+            "hit@5": 1.0,
+            "recall@5": 0.6666666666666666,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.6713860725233041
+          }
+        },
+        {
+          "question": "做机器人方向需要什么硬件基础？",
+          "retrieved_ids": [
+            "02_directions.txt::5",
+            "02_directions.txt::4",
+            "02_directions.txt::3",
+            "01_faq.txt::6",
+            "03_learning_path.txt::2"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::4",
+            "01_faq.txt::6"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.38685280723454163,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.6509209298071326
+          }
+        },
+        {
+          "question": "AI专业毕业一定要读研吗？",
+          "retrieved_ids": [
+            "01_faq.txt::6",
+            "02_directions.txt::5",
+            "04_school_info.txt::3",
+            "02_directions.txt::4",
+            "04_school_info.txt::4"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::8"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 0.0,
+            "recall@3": 0.0,
+            "mrr@3": 0.0,
+            "ndcg@3": 0.0,
+            "hit@5": 0.0,
+            "recall@5": 0.0,
+            "mrr@5": 0.0,
+            "ndcg@5": 0.0
+          }
+        },
+        {
+          "question": "机器人方向有哪些核心课程？",
+          "retrieved_ids": [
+            "02_directions.txt::5",
+            "02_directions.txt::0",
+            "02_directions.txt::3",
+            "02_directions.txt::4",
+            "04_school_info.txt::2"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::4",
+            "02_directions.txt::2",
+            "04_school_info.txt::2",
+            "03_learning_path.txt::2",
+            "02_directions.txt::0",
+            "03_learning_path.txt::4",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 0.14285714285714285,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.2960819109658652,
+            "hit@5": 1.0,
+            "recall@5": 0.42857142857142855,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.4912596920895758
+          }
+        },
+        {
+          "question": "NLP 方向就业前景怎么样？",
+          "retrieved_ids": [
+            "02_directions.txt::5",
+            "01_faq.txt::7",
+            "02_directions.txt::6",
+            "04_school_info.txt::4",
+            "02_directions.txt::3"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::1"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 0.0,
+            "recall@3": 0.0,
+            "mrr@3": 0.0,
+            "ndcg@3": 0.0,
+            "hit@5": 0.0,
+            "recall@5": 0.0,
+            "mrr@5": 0.0,
+            "ndcg@5": 0.0
+          }
+        },
+        {
+          "question": "如何判断自己更适合机器人还是 NLP？",
+          "retrieved_ids": [
+            "02_directions.txt::5",
+            "02_directions.txt::1",
+            "02_directions.txt::6",
+            "02_directions.txt::2",
+            "01_faq.txt::8"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::5"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "我们学校机器人方向需要学C++和ROS吗？",
+          "retrieved_ids": [
+            "02_directions.txt::5",
+            "02_directions.txt::3",
+            "02_directions.txt::4",
+            "03_learning_path.txt::4",
+            "01_faq.txt::6"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::3",
+            "02_directions.txt::4",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 0.4,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.5307212739772434,
+            "hit@5": 1.0,
+            "recall@5": 0.4,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.38356636737133565
+          }
+        },
+        {
+          "question": "AI 专业有哪些经典书籍推荐？",
+          "retrieved_ids": [
+            "03_learning_path.txt::5",
+            "03_learning_path.txt::4",
+            "02_directions.txt::5",
+            "02_directions.txt::0",
+            "01_faq.txt::6"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::5"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "以项目驱动学习是什么意思？",
+          "retrieved_ids": [
+            "03_learning_path.txt::6",
+            "02_directions.txt::5",
+            "02_directions.txt::4",
+            "03_learning_path.txt::1",
+            "01_faq.txt::5"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::6",
+            "03_learning_path.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.5,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.6131471927654584,
+            "hit@5": 1.0,
+            "recall@5": 0.5,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.6131471927654584
+          }
+        },
+        {
+          "question": "建议大三参加竞赛吗？",
+          "retrieved_ids": [
+            "02_directions.txt::5",
+            "03_learning_path.txt::2",
+            "01_faq.txt::7",
+            "01_faq.txt::8",
+            "01_faq.txt::2"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::2",
+            "01_faq.txt::8"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.38685280723454163,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.6509209298071326
+          }
+        },
+        {
+          "question": "本专业的专业任选课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::2",
+            "04_school_info.txt::4",
+            "04_school_info.txt::1",
+            "04_school_info.txt::3",
+            "02_directions.txt::5"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 0.8,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.8687949224876582
+          }
+        },
+        {
+          "question": "本专业的专业主干课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::2",
+            "04_school_info.txt::4",
+            "04_school_info.txt::1",
+            "04_school_info.txt::0",
+            "04_school_info.txt::3"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "本专业修业年限是几年？",
+          "retrieved_ids": [
+            "04_school_info.txt::0",
+            "02_directions.txt::5",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4",
+            "04_school_info.txt::1"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "我们学校毕业生就业去向有哪些？",
+          "retrieved_ids": [
+            "02_directions.txt::0",
+            "04_school_info.txt::4",
+            "02_directions.txt::5",
+            "04_school_info.txt::2",
+            "02_directions.txt::3"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.6309297535714575,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.6309297535714575
+          }
+        },
+        {
+          "question": "本专业的专业基础课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::2",
+            "04_school_info.txt::4",
+            "04_school_info.txt::3",
+            "02_directions.txt::5",
+            "04_school_info.txt::1"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 0.8,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.8539316501572937
+          }
+        }
+      ]
+    },
+    "dense+rerank": {
+      "avg_metrics": {
+        "hit@1": 0.8824,
+        "recall@1": 0.5162,
+        "mrr@1": 0.8824,
+        "ndcg@1": 0.8824,
+        "hit@3": 0.9412,
+        "recall@3": 0.705,
+        "mrr@3": 0.9118,
+        "ndcg@3": 0.8284,
+        "hit@5": 0.9412,
+        "recall@5": 0.7756,
+        "mrr@5": 0.9118,
+        "ndcg@5": 0.8044
+      },
+      "latency": {
+        "p50_ms": 121.76,
+        "p95_ms": 131.94,
+        "mean_ms": 122.34
+      },
+      "per_query": [
+        {
+          "question": "什么是神经网络？",
+          "retrieved_ids": [
+            "01_faq.txt::5",
+            "02_directions.txt::6",
+            "01_faq.txt::4",
+            "01_faq.txt::1",
+            "02_directions.txt::1"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::5",
+            "03_learning_path.txt::2"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.5,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.6131471927654584,
+            "hit@5": 1.0,
+            "recall@5": 0.5,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.6131471927654584
+          }
+        },
+        {
+          "question": "人工智能专业需要学习 Linux 吗？",
+          "retrieved_ids": [
+            "01_faq.txt::6",
+            "01_faq.txt::3",
+            "01_faq.txt::0",
+            "01_faq.txt::2",
+            "01_faq.txt::7"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::6"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "人工智能、机器学习、深度学习有什么区别？",
+          "retrieved_ids": [
+            "01_faq.txt::4",
+            "01_faq.txt::5",
+            "01_faq.txt::0",
+            "01_faq.txt::3",
+            "01_faq.txt::7"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::4",
+            "01_faq.txt::5",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.3333333333333333,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "做机器人方向需要什么硬件基础？",
+          "retrieved_ids": [
+            "02_directions.txt::3",
+            "02_directions.txt::4",
+            "02_directions.txt::2",
+            "02_directions.txt::6",
+            "02_directions.txt::5"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::4",
+            "01_faq.txt::6"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 0.5,
+            "ndcg@3": 0.38685280723454163,
+            "hit@5": 1.0,
+            "recall@5": 0.5,
+            "mrr@5": 0.5,
+            "ndcg@5": 0.38685280723454163
+          }
+        },
+        {
+          "question": "AI专业毕业一定要读研吗？",
+          "retrieved_ids": [
+            "01_faq.txt::8",
+            "01_faq.txt::2",
+            "01_faq.txt::1",
+            "01_faq.txt::7",
+            "01_faq.txt::6"
+          ],
+          "relevant_chunks": [
+            "01_faq.txt::8"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "机器人方向有哪些核心课程？",
+          "retrieved_ids": [
+            "02_directions.txt::4",
+            "02_directions.txt::2",
+            "02_directions.txt::3",
+            "02_directions.txt::5",
+            "02_directions.txt::6"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::4",
+            "02_directions.txt::2",
+            "04_school_info.txt::2",
+            "03_learning_path.txt::2",
+            "02_directions.txt::0",
+            "03_learning_path.txt::4",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.14285714285714285,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.2857142857142857,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.7653606369886217,
+            "hit@5": 1.0,
+            "recall@5": 0.2857142857142857,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.5531464700081437
+          }
+        },
+        {
+          "question": "NLP 方向就业前景怎么样？",
+          "retrieved_ids": [
+            "02_directions.txt::1",
+            "02_directions.txt::6",
+            "02_directions.txt::3",
+            "02_directions.txt::2",
+            "02_directions.txt::5"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::1"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "如何判断自己更适合机器人还是 NLP？",
+          "retrieved_ids": [
+            "02_directions.txt::5",
+            "02_directions.txt::2",
+            "02_directions.txt::6",
+            "02_directions.txt::0",
+            "02_directions.txt::4"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::5"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "我们学校机器人方向需要学C++和ROS吗？",
+          "retrieved_ids": [
+            "02_directions.txt::3",
+            "02_directions.txt::6",
+            "02_directions.txt::4",
+            "02_directions.txt::5",
+            "02_directions.txt::2"
+          ],
+          "relevant_chunks": [
+            "02_directions.txt::3",
+            "02_directions.txt::4",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "01_faq.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.4,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.7039180890341347,
+            "hit@5": 1.0,
+            "recall@5": 0.4,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.5087403079104241
+          }
+        },
+        {
+          "question": "AI 专业有哪些经典书籍推荐？",
+          "retrieved_ids": [
+            "01_faq.txt::7",
+            "03_learning_path.txt::4",
+            "01_faq.txt::0",
+            "01_faq.txt::5",
+            "01_faq.txt::8"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::5"
+          ],
+          "metrics": {
+            "hit@1": 0.0,
+            "recall@1": 0.0,
+            "mrr@1": 0.0,
+            "ndcg@1": 0.0,
+            "hit@3": 0.0,
+            "recall@3": 0.0,
+            "mrr@3": 0.0,
+            "ndcg@3": 0.0,
+            "hit@5": 0.0,
+            "recall@5": 0.0,
+            "mrr@5": 0.0,
+            "ndcg@5": 0.0
+          }
+        },
+        {
+          "question": "以项目驱动学习是什么意思？",
+          "retrieved_ids": [
+            "03_learning_path.txt::6",
+            "02_directions.txt::7",
+            "03_learning_path.txt::5",
+            "02_directions.txt::1",
+            "02_directions.txt::2"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::6",
+            "03_learning_path.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.5,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.5,
+            "mrr@3": 1.0,
+            "ndcg@3": 0.6131471927654584,
+            "hit@5": 1.0,
+            "recall@5": 0.5,
+            "mrr@5": 1.0,
+            "ndcg@5": 0.6131471927654584
+          }
+        },
+        {
+          "question": "建议大三参加竞赛吗？",
+          "retrieved_ids": [
+            "03_learning_path.txt::2",
+            "01_faq.txt::8",
+            "03_learning_path.txt::3",
+            "01_faq.txt::7",
+            "03_learning_path.txt::1"
+          ],
+          "relevant_chunks": [
+            "03_learning_path.txt::2",
+            "01_faq.txt::8"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.5,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "本专业的专业任选课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::4",
+            "04_school_info.txt::1",
+            "04_school_info.txt::0",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "本专业的专业主干课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::4",
+            "04_school_info.txt::0",
+            "04_school_info.txt::2",
+            "04_school_info.txt::1",
+            "04_school_info.txt::3"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "本专业修业年限是几年？",
+          "retrieved_ids": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4",
+            "04_school_info.txt::1",
+            "03_learning_path.txt::2"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "我们学校毕业生就业去向有哪些？",
+          "retrieved_ids": [
+            "04_school_info.txt::4",
+            "04_school_info.txt::3",
+            "02_directions.txt::7",
+            "02_directions.txt::1",
+            "02_directions.txt::0"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 1.0,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 1.0,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        },
+        {
+          "question": "本专业的专业基础课学分是多少？",
+          "retrieved_ids": [
+            "04_school_info.txt::4",
+            "04_school_info.txt::1",
+            "04_school_info.txt::0",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3"
+          ],
+          "relevant_chunks": [
+            "04_school_info.txt::0",
+            "04_school_info.txt::1",
+            "04_school_info.txt::2",
+            "04_school_info.txt::3",
+            "04_school_info.txt::4"
+          ],
+          "metrics": {
+            "hit@1": 1.0,
+            "recall@1": 0.2,
+            "mrr@1": 1.0,
+            "ndcg@1": 1.0,
+            "hit@3": 1.0,
+            "recall@3": 0.6,
+            "mrr@3": 1.0,
+            "ndcg@3": 1.0,
+            "hit@5": 1.0,
+            "recall@5": 1.0,
+            "mrr@5": 1.0,
+            "ndcg@5": 1.0
+          }
+        }
+      ]
+    }
+  }
+}

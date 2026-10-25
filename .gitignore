@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 检索索引（明文原文，且可重建）
+.retrieval_index/
+idx/
+dist/
+
+# 大体积资产：模型权重与原始数据按需本地保留，不入库
+models/
+data_raw/
+
+# 实验二进制产物（报告与 results.json 保留）
+experiments/**/*.npy
+experiments/**/*.npz
+experiments/**/*.pkl
+*.log
+
+# 微调产物（1.1GB 权重 + 训练数据）：按需本地重建，不入库
+experiments/_rerank_train/

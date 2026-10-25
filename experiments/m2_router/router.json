@@ -1,0 +1,21 @@
+{
+  "strategy": "agreement",
+  "rule": "dense 与 BM25 top1 一致 -> dense top5 直返（免 rerank）；否则 dense 召回 + rerank",
+  "tuned_on": "D:\\claude code use\\rag-research-project\\experiments\\splits\\train.json",
+  "tolerance_vs_full_rerank": 0.02,
+  "signal_reports": {
+    "margin": {
+      "m12_median_correct": 0.0105,
+      "m12_median_wrong": 0.0086,
+      "m15_median_correct": 0.0403,
+      "m15_median_wrong": 0.0346,
+      "verdict": "无区分度，否决"
+    },
+    "agreement": {
+      "fast_path_rate": 0.2778,
+      "fast_path_correct_rate": 0.9,
+      "dense_prior_correct_rate": 0.5694,
+      "verdict": "采用"
+    }
+  }
+}

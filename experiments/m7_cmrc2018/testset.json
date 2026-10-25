@@ -1,0 +1,2087 @@
+[
+ {
+  "question": "从狭义上来看，流体机械主要指什么？",
+  "relevant_chunks": [
+   "wiki_00000::0",
+   "wiki_00000::1"
+  ],
+  "relevant_sources": [
+   "wiki_00000"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "拜耳斯坦数据库的英文名是什么？",
+  "relevant_chunks": [
+   "wiki_00001::0",
+   "wiki_00001::1"
+  ],
+  "relevant_sources": [
+   "wiki_00001"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "世界羽联超级系列赛总决赛是哪一赛事的延续？",
+  "relevant_chunks": [
+   "wiki_00002::0"
+  ],
+  "relevant_sources": [
+   "wiki_00002"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "林德福曾任什么职务？",
+  "relevant_chunks": [
+   "wiki_00003::0"
+  ],
+  "relevant_sources": [
+   "wiki_00003"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《茉莉花开》是哪一年摄制的？",
+  "relevant_chunks": [
+   "wiki_00004::0"
+  ],
+  "relevant_sources": [
+   "wiki_00004"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "科誉的前身是什么？",
+  "relevant_chunks": [
+   "wiki_00005::0",
+   "wiki_00005::1"
+  ],
+  "relevant_sources": [
+   "wiki_00005"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "沃尔特·琼斯·贝拉米的职业是什么？",
+  "relevant_chunks": [
+   "wiki_00006::0"
+  ],
+  "relevant_sources": [
+   "wiki_00006"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "盐排高速公路位于那座城市？",
+  "relevant_chunks": [
+   "wiki_00007::0"
+  ],
+  "relevant_sources": [
+   "wiki_00007"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "冰青所属的是哪家经纪公司？",
+  "relevant_chunks": [
+   "wiki_00008::0"
+  ],
+  "relevant_sources": [
+   "wiki_00008"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "济南革命烈士陵园在什么地方？",
+  "relevant_chunks": [
+   "wiki_00009::0"
+  ],
+  "relevant_sources": [
+   "wiki_00009"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "马迪懦毕业于哪所学校？",
+  "relevant_chunks": [
+   "wiki_00010::0"
+  ],
+  "relevant_sources": [
+   "wiki_00010"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "东西两个站厅在非付费区相通吗？",
+  "relevant_chunks": [
+   "wiki_00011::0",
+   "wiki_00011::1"
+  ],
+  "relevant_sources": [
+   "wiki_00011"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "德西尔维斯特里是哪个国家的运动员？",
+  "relevant_chunks": [
+   "wiki_00012::0"
+  ],
+  "relevant_sources": [
+   "wiki_00012"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "三棘多板盾尾鱼的俗名有哪些？",
+  "relevant_chunks": [
+   "wiki_00013::0"
+  ],
+  "relevant_sources": [
+   "wiki_00013"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "利府车站是哪家公司经营的车站？",
+  "relevant_chunks": [
+   "wiki_00014::0"
+  ],
+  "relevant_sources": [
+   "wiki_00014"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "白蛋白最重要的作用是什么？",
+  "relevant_chunks": [
+   "wiki_00015::0"
+  ],
+  "relevant_sources": [
+   "wiki_00015"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "别里古台的父母是谁？",
+  "relevant_chunks": [
+   "wiki_00016::0"
+  ],
+  "relevant_sources": [
+   "wiki_00016"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么叫广义的光栅？",
+  "relevant_chunks": [
+   "wiki_00017::0"
+  ],
+  "relevant_sources": [
+   "wiki_00017"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "作者在这部作品构成方面的创新是？",
+  "relevant_chunks": [
+   "wiki_00018::0"
+  ],
+  "relevant_sources": [
+   "wiki_00018"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "哪两座城市参与了第三十三届夏季奥林匹克运动会的最终角逐？",
+  "relevant_chunks": [
+   "wiki_00019::0",
+   "wiki_00019::1",
+   "wiki_00019::2"
+  ],
+  "relevant_sources": [
+   "wiki_00019"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "叔丁基氯是什么？",
+  "relevant_chunks": [
+   "wiki_00020::0"
+  ],
+  "relevant_sources": [
+   "wiki_00020"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "武汉长江隧道位于哪两座大桥之间？",
+  "relevant_chunks": [
+   "wiki_00021::0"
+  ],
+  "relevant_sources": [
+   "wiki_00021"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "黄蝴蝶鱼的其他名字叫什么？",
+  "relevant_chunks": [
+   "wiki_00022::0"
+  ],
+  "relevant_sources": [
+   "wiki_00022"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "黄灯笼辣椒又叫什么？",
+  "relevant_chunks": [
+   "wiki_00023::0",
+   "wiki_00023::1",
+   "wiki_00023::2"
+  ],
+  "relevant_sources": [
+   "wiki_00023"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "大卫·克劳斯的职业是什么？",
+  "relevant_chunks": [
+   "wiki_00024::0"
+  ],
+  "relevant_sources": [
+   "wiki_00024"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "罂粟花有什么作用？",
+  "relevant_chunks": [
+   "wiki_00025::0",
+   "wiki_00025::1"
+  ],
+  "relevant_sources": [
+   "wiki_00025"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "古希腊拳击是在什么文化背景下产生的？",
+  "relevant_chunks": [
+   "wiki_00026::0",
+   "wiki_00026::1"
+  ],
+  "relevant_sources": [
+   "wiki_00026"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "棱鮻属于哪一科？",
+  "relevant_chunks": [
+   "wiki_00027::0"
+  ],
+  "relevant_sources": [
+   "wiki_00027"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "泰达足球场在何处？",
+  "relevant_chunks": [
+   "wiki_00028::0",
+   "wiki_00028::1"
+  ],
+  "relevant_sources": [
+   "wiki_00028"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "中国柔道队有多少人参加2008年北京奥运会？",
+  "relevant_chunks": [
+   "wiki_00029::0"
+  ],
+  "relevant_sources": [
+   "wiki_00029"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "矫公羡是哪里人？",
+  "relevant_chunks": [
+   "wiki_00030::0"
+  ],
+  "relevant_sources": [
+   "wiki_00030"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "胡子鲇属于哪一种鱼类？",
+  "relevant_chunks": [
+   "wiki_00031::0"
+  ],
+  "relevant_sources": [
+   "wiki_00031"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "苏沃洛夫有哪些头衔？",
+  "relevant_chunks": [
+   "wiki_00032::0",
+   "wiki_00032::1"
+  ],
+  "relevant_sources": [
+   "wiki_00032"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "2008年北京奥运会中国游泳队参加的运动员有多少人？",
+  "relevant_chunks": [
+   "wiki_00033::0"
+  ],
+  "relevant_sources": [
+   "wiki_00033"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "双斑长鳍天竺鲷一般分布在什么地方？",
+  "relevant_chunks": [
+   "wiki_00034::0"
+  ],
+  "relevant_sources": [
+   "wiki_00034"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "阎相闯什么时候进入了八一青年队？",
+  "relevant_chunks": [
+   "wiki_00035::0"
+  ],
+  "relevant_sources": [
+   "wiki_00035"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么是Mac OS X v10.1「Puma」？",
+  "relevant_chunks": [
+   "wiki_00036::0"
+  ],
+  "relevant_sources": [
+   "wiki_00036"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "司马模是谁？",
+  "relevant_chunks": [
+   "wiki_00037::0"
+  ],
+  "relevant_sources": [
+   "wiki_00037"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "CSC Enterprise Corp是什么公司？",
+  "relevant_chunks": [
+   "wiki_00038::0"
+  ],
+  "relevant_sources": [
+   "wiki_00038"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "张英是谁的部下？",
+  "relevant_chunks": [
+   "wiki_00039::0"
+  ],
+  "relevant_sources": [
+   "wiki_00039"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《大篷车》哪国的电影？",
+  "relevant_chunks": [
+   "wiki_00040::0",
+   "wiki_00040::1"
+  ],
+  "relevant_sources": [
+   "wiki_00040"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "1973年沈果孙在中日围棋对抗赛上执白中盘战胜了谁，成为第一位战胜日本围棋现任冠军的国内棋手？",
+  "relevant_chunks": [
+   "wiki_00041::0"
+  ],
+  "relevant_sources": [
+   "wiki_00041"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "Boost C++ 函式库是一种什么样的程式库？",
+  "relevant_chunks": [
+   "wiki_00042::0",
+   "wiki_00042::1"
+  ],
+  "relevant_sources": [
+   "wiki_00042"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "中线天竺鲷的俗名是什么？",
+  "relevant_chunks": [
+   "wiki_00043::0"
+  ],
+  "relevant_sources": [
+   "wiki_00043"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "三色龙胆分布在哪些地区？",
+  "relevant_chunks": [
+   "wiki_00044::0",
+   "wiki_00044::1"
+  ],
+  "relevant_sources": [
+   "wiki_00044"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "阿姆迪·法耶通过哪件事情而大大提升了知名度？",
+  "relevant_chunks": [
+   "wiki_00045::0",
+   "wiki_00045::1"
+  ],
+  "relevant_sources": [
+   "wiki_00045"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "穆罕默德·纳希德是谁？",
+  "relevant_chunks": [
+   "wiki_00046::0"
+  ],
+  "relevant_sources": [
+   "wiki_00046"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "余心乐是什么人？",
+  "relevant_chunks": [
+   "wiki_00047::0"
+  ],
+  "relevant_sources": [
+   "wiki_00047"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "濑峰车站位于哪里？",
+  "relevant_chunks": [
+   "wiki_00048::0"
+  ],
+  "relevant_sources": [
+   "wiki_00048"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "八神浩树是什么人？",
+  "relevant_chunks": [
+   "wiki_00049::0"
+  ],
+  "relevant_sources": [
+   "wiki_00049"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "舒尔茨的地位是怎样的？",
+  "relevant_chunks": [
+   "wiki_00050::0"
+  ],
+  "relevant_sources": [
+   "wiki_00050"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《黄泉归来》的作者是谁？",
+  "relevant_chunks": [
+   "wiki_00051::0"
+  ],
+  "relevant_sources": [
+   "wiki_00051"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "广泛性发展障碍简称是什么？",
+  "relevant_chunks": [
+   "wiki_00052::0"
+  ],
+  "relevant_sources": [
+   "wiki_00052"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "太保是什么？",
+  "relevant_chunks": [
+   "wiki_00053::0"
+  ],
+  "relevant_sources": [
+   "wiki_00053"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "6061的常见型号有哪些？",
+  "relevant_chunks": [
+   "wiki_00054::0",
+   "wiki_00054::1"
+  ],
+  "relevant_sources": [
+   "wiki_00054"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "水力资源是什么资源？",
+  "relevant_chunks": [
+   "wiki_00055::0"
+  ],
+  "relevant_sources": [
+   "wiki_00055"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "冲绳若梅鲷又被称之为什么？",
+  "relevant_chunks": [
+   "wiki_00056::0"
+  ],
+  "relevant_sources": [
+   "wiki_00056"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "挑战K联赛是韩国的足球联赛中第几级组别？",
+  "relevant_chunks": [
+   "wiki_00057::0",
+   "wiki_00057::1"
+  ],
+  "relevant_sources": [
+   "wiki_00057"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "塞舌尔国家足球队是什么球队？",
+  "relevant_chunks": [
+   "wiki_00058::0"
+  ],
+  "relevant_sources": [
+   "wiki_00058"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "美国新浪潮是指什么？",
+  "relevant_chunks": [
+   "wiki_00059::0"
+  ],
+  "relevant_sources": [
+   "wiki_00059"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "距翅雁还有一个名字，叫什么？",
+  "relevant_chunks": [
+   "wiki_00060::0"
+  ],
+  "relevant_sources": [
+   "wiki_00060"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "明清音系是指什么？",
+  "relevant_chunks": [
+   "wiki_00061::0",
+   "wiki_00061::1"
+  ],
+  "relevant_sources": [
+   "wiki_00061"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "太平洋潜鸟是属于哪一目的？",
+  "relevant_chunks": [
+   "wiki_00062::0"
+  ],
+  "relevant_sources": [
+   "wiki_00062"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "何时保罗·策雷索莱当选为联邦委员会委员？",
+  "relevant_chunks": [
+   "wiki_00063::0"
+  ],
+  "relevant_sources": [
+   "wiki_00063"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "澳门有哪三间书店每年都举办大型书展？",
+  "relevant_chunks": [
+   "wiki_00064::0",
+   "wiki_00064::1"
+  ],
+  "relevant_sources": [
+   "wiki_00064"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "柯灵有哪些称号？",
+  "relevant_chunks": [
+   "wiki_00065::0"
+  ],
+  "relevant_sources": [
+   "wiki_00065"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么是沙丘之乱？",
+  "relevant_chunks": [
+   "wiki_00066::0",
+   "wiki_00066::1"
+  ],
+  "relevant_sources": [
+   "wiki_00066"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "王夫人是什么地方的人？",
+  "relevant_chunks": [
+   "wiki_00067::0"
+  ],
+  "relevant_sources": [
+   "wiki_00067"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《美国大白痴》是哪个乐队的专辑？",
+  "relevant_chunks": [
+   "wiki_00068::0"
+  ],
+  "relevant_sources": [
+   "wiki_00068"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "Comic World是什么？",
+  "relevant_chunks": [
+   "wiki_00069::0"
+  ],
+  "relevant_sources": [
+   "wiki_00069"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "三斑天竺鲷一般分布在什么地方？",
+  "relevant_chunks": [
+   "wiki_00070::0"
+  ],
+  "relevant_sources": [
+   "wiki_00070"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "叶齿鳄属于哪一亚目？",
+  "relevant_chunks": [
+   "wiki_00071::0",
+   "wiki_00071::1"
+  ],
+  "relevant_sources": [
+   "wiki_00071"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "要通过注册信息系统审计师资格需要通过什么？",
+  "relevant_chunks": [
+   "wiki_00072::0"
+  ],
+  "relevant_sources": [
+   "wiki_00072"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "太平洋群岛托管地是什么地带？",
+  "relevant_chunks": [
+   "wiki_00073::0"
+  ],
+  "relevant_sources": [
+   "wiki_00073"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "小牙鲾的俗名是什么？",
+  "relevant_chunks": [
+   "wiki_00074::0"
+  ],
+  "relevant_sources": [
+   "wiki_00074"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "境内的海礁有什么特别之处？",
+  "relevant_chunks": [
+   "wiki_00075::0"
+  ],
+  "relevant_sources": [
+   "wiki_00075"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "温造是哪里人？",
+  "relevant_chunks": [
+   "wiki_00076::0"
+  ],
+  "relevant_sources": [
+   "wiki_00076"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "“雁门乡”得名的由来是什么？",
+  "relevant_chunks": [
+   "wiki_00077::0"
+  ],
+  "relevant_sources": [
+   "wiki_00077"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "BC信用卡杯世界围棋公开赛的简称是什么？",
+  "relevant_chunks": [
+   "wiki_00078::0"
+  ],
+  "relevant_sources": [
+   "wiki_00078"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "桶盘屿距离马公市中心有多远？",
+  "relevant_chunks": [
+   "wiki_00079::0",
+   "wiki_00079::1"
+  ],
+  "relevant_sources": [
+   "wiki_00079"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "突厥汗国分裂成哪两个国家？",
+  "relevant_chunks": [
+   "wiki_00080::0",
+   "wiki_00080::1"
+  ],
+  "relevant_sources": [
+   "wiki_00080"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "王翠翘的事迹最早见于哪本著作？",
+  "relevant_chunks": [
+   "wiki_00081::0",
+   "wiki_00081::1"
+  ],
+  "relevant_sources": [
+   "wiki_00081"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "珍·哈露是什么人？",
+  "relevant_chunks": [
+   "wiki_00082::0",
+   "wiki_00082::1"
+  ],
+  "relevant_sources": [
+   "wiki_00082"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《超极挑战者》原节目形态是什么？",
+  "relevant_chunks": [
+   "wiki_00083::0"
+  ],
+  "relevant_sources": [
+   "wiki_00083"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "韩通为什么被提拔为骑军队长？",
+  "relevant_chunks": [
+   "wiki_00084::0"
+  ],
+  "relevant_sources": [
+   "wiki_00084"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《伯爵与妖精》的作者是谁？",
+  "relevant_chunks": [
+   "wiki_00085::0"
+  ],
+  "relevant_sources": [
+   "wiki_00085"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "为什么加藤明成的家臣们相继出国远奔？",
+  "relevant_chunks": [
+   "wiki_00086::0"
+  ],
+  "relevant_sources": [
+   "wiki_00086"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "仙女座星系-银河系碰撞预计会发生在什么时候？",
+  "relevant_chunks": [
+   "wiki_00087::0",
+   "wiki_00087::1",
+   "wiki_00087::2"
+  ],
+  "relevant_sources": [
+   "wiki_00087"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "广东住血线虫可引起的病是什么？",
+  "relevant_chunks": [
+   "wiki_00088::0",
+   "wiki_00088::1",
+   "wiki_00088::2"
+  ],
+  "relevant_sources": [
+   "wiki_00088"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "推出中华民国空气污染指标的目标是什么？",
+  "relevant_chunks": [
+   "wiki_00089::0",
+   "wiki_00089::1"
+  ],
+  "relevant_sources": [
+   "wiki_00089"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "西澳州政府体-{制}-是隶属于哪个国家宪法的政府体-{制}？",
+  "relevant_chunks": [
+   "wiki_00090::0"
+  ],
+  "relevant_sources": [
+   "wiki_00090"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "富山胜利是哪国的足球队？",
+  "relevant_chunks": [
+   "wiki_00091::0",
+   "wiki_00091::1"
+  ],
+  "relevant_sources": [
+   "wiki_00091"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "深坑轻轨的路线规划由台北市立动物园向东至深坑区，止于哪里？",
+  "relevant_chunks": [
+   "wiki_00092::0",
+   "wiki_00092::1"
+  ],
+  "relevant_sources": [
+   "wiki_00092"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "阿里郎节通常在何地举行？",
+  "relevant_chunks": [
+   "wiki_00093::0"
+  ],
+  "relevant_sources": [
+   "wiki_00093"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "克里米亚鞑靼人是原定居于克里米亚半岛的哪个民族？",
+  "relevant_chunks": [
+   "wiki_00094::0",
+   "wiki_00094::1",
+   "wiki_00094::2"
+  ],
+  "relevant_sources": [
+   "wiki_00094"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "尼古洛巴托总统国际机场之前称什么机场？",
+  "relevant_chunks": [
+   "wiki_00095::0"
+  ],
+  "relevant_sources": [
+   "wiki_00095"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "圣福里安圣殿位于哪里？",
+  "relevant_chunks": [
+   "wiki_00096::0",
+   "wiki_00096::1"
+  ],
+  "relevant_sources": [
+   "wiki_00096"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "陆佑的身份是什么？",
+  "relevant_chunks": [
+   "wiki_00097::0",
+   "wiki_00097::1",
+   "wiki_00097::2"
+  ],
+  "relevant_sources": [
+   "wiki_00097"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "国民年金保险是什么？",
+  "relevant_chunks": [
+   "wiki_00098::0",
+   "wiki_00098::1"
+  ],
+  "relevant_sources": [
+   "wiki_00098"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "蓝霄是谁？",
+  "relevant_chunks": [
+   "wiki_00099::0",
+   "wiki_00099::1"
+  ],
+  "relevant_sources": [
+   "wiki_00099"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "裸盖鱼还有什么名字？",
+  "relevant_chunks": [
+   "wiki_00100::0"
+  ],
+  "relevant_sources": [
+   "wiki_00100"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "台湾播出《银河骑士》的时间是？",
+  "relevant_chunks": [
+   "wiki_00101::0"
+  ],
+  "relevant_sources": [
+   "wiki_00101"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "迄至2017年10月，台湾总人口是多少？",
+  "relevant_chunks": [
+   "wiki_00102::0",
+   "wiki_00102::1"
+  ],
+  "relevant_sources": [
+   "wiki_00102"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "雷振邦有哪些头衔？",
+  "relevant_chunks": [
+   "wiki_00103::0"
+  ],
+  "relevant_sources": [
+   "wiki_00103"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "曼斯菲尔德城足球俱乐部成立于哪一年？",
+  "relevant_chunks": [
+   "wiki_00104::0",
+   "wiki_00104::1"
+  ],
+  "relevant_sources": [
+   "wiki_00104"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么是伯奇还原反应？",
+  "relevant_chunks": [
+   "wiki_00105::0",
+   "wiki_00105::1"
+  ],
+  "relevant_sources": [
+   "wiki_00105"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "皇家泰国空军博物馆位于什么地方？",
+  "relevant_chunks": [
+   "wiki_00106::0"
+  ],
+  "relevant_sources": [
+   "wiki_00106"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "冉广岐是因为什么事情而被熟知的？",
+  "relevant_chunks": [
+   "wiki_00107::0",
+   "wiki_00107::1"
+  ],
+  "relevant_sources": [
+   "wiki_00107"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "斑林狸又名什么？",
+  "relevant_chunks": [
+   "wiki_00108::0"
+  ],
+  "relevant_sources": [
+   "wiki_00108"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "中国国际贸易中心位于什么地方？",
+  "relevant_chunks": [
+   "wiki_00109::0",
+   "wiki_00109::1"
+  ],
+  "relevant_sources": [
+   "wiki_00109"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "乙酸酐的分子式是什么？",
+  "relevant_chunks": [
+   "wiki_00110::0",
+   "wiki_00110::1"
+  ],
+  "relevant_sources": [
+   "wiki_00110"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "八条宫智忠亲王是谁？",
+  "relevant_chunks": [
+   "wiki_00111::0"
+  ],
+  "relevant_sources": [
+   "wiki_00111"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "芦潮港站是什么站？",
+  "relevant_chunks": [
+   "wiki_00112::0"
+  ],
+  "relevant_sources": [
+   "wiki_00112"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "北京信息科技大学是由哪两所学校合并组建？",
+  "relevant_chunks": [
+   "wiki_00113::0"
+  ],
+  "relevant_sources": [
+   "wiki_00113"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "钩鳞鲀的俗名是什么？",
+  "relevant_chunks": [
+   "wiki_00114::0"
+  ],
+  "relevant_sources": [
+   "wiki_00114"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "大联盟球速最快纪录被谁打破？",
+  "relevant_chunks": [
+   "wiki_00115::0"
+  ],
+  "relevant_sources": [
+   "wiki_00115"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "P-1000巨鼠重型巡航坦克由哪个公司研制?",
+  "relevant_chunks": [
+   "wiki_00116::0",
+   "wiki_00116::1",
+   "wiki_00116::2"
+  ],
+  "relevant_sources": [
+   "wiki_00116"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "周而复什么时候出版了第一本诗集？",
+  "relevant_chunks": [
+   "wiki_00117::0",
+   "wiki_00117::1",
+   "wiki_00117::2"
+  ],
+  "relevant_sources": [
+   "wiki_00117"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "布林迪西主要作物是什么？",
+  "relevant_chunks": [
+   "wiki_00118::0"
+  ],
+  "relevant_sources": [
+   "wiki_00118"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "金平糖在华语圈中又称为什么？",
+  "relevant_chunks": [
+   "wiki_00119::0"
+  ],
+  "relevant_sources": [
+   "wiki_00119"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "莱德岛战役可能发生于哪一年？",
+  "relevant_chunks": [
+   "wiki_00120::0"
+  ],
+  "relevant_sources": [
+   "wiki_00120"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "天主教桑斯总教区是哪里的一个总教区？",
+  "relevant_chunks": [
+   "wiki_00121::0"
+  ],
+  "relevant_sources": [
+   "wiki_00121"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "沃夫数是什么？",
+  "relevant_chunks": [
+   "wiki_00122::0"
+  ],
+  "relevant_sources": [
+   "wiki_00122"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "赵一萍原名是什么？",
+  "relevant_chunks": [
+   "wiki_00123::0"
+  ],
+  "relevant_sources": [
+   "wiki_00123"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "古大气层指的是什么？",
+  "relevant_chunks": [
+   "wiki_00124::0"
+  ],
+  "relevant_sources": [
+   "wiki_00124"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "冯素弗是何时去世的？",
+  "relevant_chunks": [
+   "wiki_00125::0",
+   "wiki_00125::1"
+  ],
+  "relevant_sources": [
+   "wiki_00125"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么是本体编辑器？",
+  "relevant_chunks": [
+   "wiki_00126::0"
+  ],
+  "relevant_sources": [
+   "wiki_00126"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "黄浩然在2004年8月的代训选秀会中于哪个队选中？",
+  "relevant_chunks": [
+   "wiki_00127::0",
+   "wiki_00127::1"
+  ],
+  "relevant_sources": [
+   "wiki_00127"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "复线铁路指的是什么？",
+  "relevant_chunks": [
+   "wiki_00128::0",
+   "wiki_00128::1"
+  ],
+  "relevant_sources": [
+   "wiki_00128"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《新扎师兄1988》是什么类型的电视剧？",
+  "relevant_chunks": [
+   "wiki_00129::0",
+   "wiki_00129::1"
+  ],
+  "relevant_sources": [
+   "wiki_00129"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "此鱼在夜间，会有何动作？",
+  "relevant_chunks": [
+   "wiki_00130::0"
+  ],
+  "relevant_sources": [
+   "wiki_00130"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "科克大学是哪所大学的一部分？",
+  "relevant_chunks": [
+   "wiki_00131::0",
+   "wiki_00131::1",
+   "wiki_00131::2"
+  ],
+  "relevant_sources": [
+   "wiki_00131"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "宏将多利安股份有限公司是一家什么公司？",
+  "relevant_chunks": [
+   "wiki_00132::0"
+  ],
+  "relevant_sources": [
+   "wiki_00132"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "贾特拉帕蒂·希瓦吉国际机场位于什么地方？",
+  "relevant_chunks": [
+   "wiki_00133::0"
+  ],
+  "relevant_sources": [
+   "wiki_00133"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "金勤于哪所大学教授电影表演课程？",
+  "relevant_chunks": [
+   "wiki_00134::0",
+   "wiki_00134::1"
+  ],
+  "relevant_sources": [
+   "wiki_00134"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "尖吻单棘鲀的俗名是什么？",
+  "relevant_chunks": [
+   "wiki_00135::0"
+  ],
+  "relevant_sources": [
+   "wiki_00135"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "岬太郎在第一次南葛市生活时的搭档是谁？",
+  "relevant_chunks": [
+   "wiki_00136::0"
+  ],
+  "relevant_sources": [
+   "wiki_00136"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么是Scorched 3D？",
+  "relevant_chunks": [
+   "wiki_00137::0"
+  ],
+  "relevant_sources": [
+   "wiki_00137"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "隐地的代表作是什么？",
+  "relevant_chunks": [
+   "wiki_00138::0",
+   "wiki_00138::1"
+  ],
+  "relevant_sources": [
+   "wiki_00138"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "仁义潭水库的总容量是多少？",
+  "relevant_chunks": [
+   "wiki_00139::0"
+  ],
+  "relevant_sources": [
+   "wiki_00139"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "野山羊分布在哪些地方？",
+  "relevant_chunks": [
+   "wiki_00140::0"
+  ],
+  "relevant_sources": [
+   "wiki_00140"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "莱辛顿大道在哪里？",
+  "relevant_chunks": [
+   "wiki_00141::0"
+  ],
+  "relevant_sources": [
+   "wiki_00141"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《失去城堡的人》改编自什么小说?",
+  "relevant_chunks": [
+   "wiki_00142::0"
+  ],
+  "relevant_sources": [
+   "wiki_00142"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "银斑密棘杜父鱼是哪种科目下的生物？",
+  "relevant_chunks": [
+   "wiki_00143::0"
+  ],
+  "relevant_sources": [
+   "wiki_00143"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "漂泊信天翁翼展有多长？",
+  "relevant_chunks": [
+   "wiki_00144::0",
+   "wiki_00144::1"
+  ],
+  "relevant_sources": [
+   "wiki_00144"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "劳尔·梅雷莱斯全名叫做什么？",
+  "relevant_chunks": [
+   "wiki_00145::0"
+  ],
+  "relevant_sources": [
+   "wiki_00145"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "Astro AOD是由谁开办的？",
+  "relevant_chunks": [
+   "wiki_00146::0",
+   "wiki_00146::1"
+  ],
+  "relevant_sources": [
+   "wiki_00146"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "Miro支持哪些系统？",
+  "relevant_chunks": [
+   "wiki_00147::0"
+  ],
+  "relevant_sources": [
+   "wiki_00147"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "大成食品（亚洲）公司成立于哪一年？",
+  "relevant_chunks": [
+   "wiki_00148::0"
+  ],
+  "relevant_sources": [
+   "wiki_00148"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "红鳍东方鲀有多少枚背鳍软条？",
+  "relevant_chunks": [
+   "wiki_00149::0"
+  ],
+  "relevant_sources": [
+   "wiki_00149"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "曾健明是怎样出道的？",
+  "relevant_chunks": [
+   "wiki_00150::0",
+   "wiki_00150::1"
+  ],
+  "relevant_sources": [
+   "wiki_00150"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "武藏关站的地理位置在哪里？",
+  "relevant_chunks": [
+   "wiki_00151::0"
+  ],
+  "relevant_sources": [
+   "wiki_00151"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "深圳体育场位于什么位置？",
+  "relevant_chunks": [
+   "wiki_00152::0",
+   "wiki_00152::1"
+  ],
+  "relevant_sources": [
+   "wiki_00152"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "七阶魔术方块呈现什么样的立体结构？",
+  "relevant_chunks": [
+   "wiki_00153::0",
+   "wiki_00153::1"
+  ],
+  "relevant_sources": [
+   "wiki_00153"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "按司是什么？",
+  "relevant_chunks": [
+   "wiki_00154::0",
+   "wiki_00154::1",
+   "wiki_00154::2"
+  ],
+  "relevant_sources": [
+   "wiki_00154"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "兔子四部曲，是谁的作品？",
+  "relevant_chunks": [
+   "wiki_00155::0",
+   "wiki_00155::1",
+   "wiki_00155::2"
+  ],
+  "relevant_sources": [
+   "wiki_00155"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "少牙斑鲆的模式产地在哪里？",
+  "relevant_chunks": [
+   "wiki_00156::0"
+  ],
+  "relevant_sources": [
+   "wiki_00156"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "圣盔谷是谁的小说作品的地点？",
+  "relevant_chunks": [
+   "wiki_00157::0",
+   "wiki_00157::1"
+  ],
+  "relevant_sources": [
+   "wiki_00157"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "澳门巴士1路线是往返哪两地的线路？",
+  "relevant_chunks": [
+   "wiki_00158::0",
+   "wiki_00158::1"
+  ],
+  "relevant_sources": [
+   "wiki_00158"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "汪文言遭受严刑拷打后是否诬蔑了东林党人？",
+  "relevant_chunks": [
+   "wiki_00159::0"
+  ],
+  "relevant_sources": [
+   "wiki_00159"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "左旋咪唑是一种什么药？",
+  "relevant_chunks": [
+   "wiki_00160::0"
+  ],
+  "relevant_sources": [
+   "wiki_00160"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《古代王者 恐龙王》是谁开发的游戏？",
+  "relevant_chunks": [
+   "wiki_00161::0"
+  ],
+  "relevant_sources": [
+   "wiki_00161"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "人马宫是什么？",
+  "relevant_chunks": [
+   "wiki_00162::0"
+  ],
+  "relevant_sources": [
+   "wiki_00162"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "卡鲁索凯旋门在什么地方？",
+  "relevant_chunks": [
+   "wiki_00163::0"
+  ],
+  "relevant_sources": [
+   "wiki_00163"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "日本传说中的蛇神是什么？",
+  "relevant_chunks": [
+   "wiki_00164::0",
+   "wiki_00164::1",
+   "wiki_00164::2"
+  ],
+  "relevant_sources": [
+   "wiki_00164"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "原子球塔是为了什么活动而建的？",
+  "relevant_chunks": [
+   "wiki_00165::0"
+  ],
+  "relevant_sources": [
+   "wiki_00165"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么是说明文？",
+  "relevant_chunks": [
+   "wiki_00166::0",
+   "wiki_00166::1"
+  ],
+  "relevant_sources": [
+   "wiki_00166"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "锦丰园为什么不如荃湾中心商场方便？",
+  "relevant_chunks": [
+   "wiki_00167::0"
+  ],
+  "relevant_sources": [
+   "wiki_00167"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么是破坏性创新？",
+  "relevant_chunks": [
+   "wiki_00168::0",
+   "wiki_00168::1"
+  ],
+  "relevant_sources": [
+   "wiki_00168"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "林极限是指什么？",
+  "relevant_chunks": [
+   "wiki_00169::0"
+  ],
+  "relevant_sources": [
+   "wiki_00169"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "路易斯·恩里克什么时候获得「五冠王」的成绩？",
+  "relevant_chunks": [
+   "wiki_00170::0"
+  ],
+  "relevant_sources": [
+   "wiki_00170"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "管海马的俗名是什么？",
+  "relevant_chunks": [
+   "wiki_00171::0"
+  ],
+  "relevant_sources": [
+   "wiki_00171"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "汉特-曼西自治区的官方语言是什么？",
+  "relevant_chunks": [
+   "wiki_00172::0"
+  ],
+  "relevant_sources": [
+   "wiki_00172"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "双屿港位于什么地方？",
+  "relevant_chunks": [
+   "wiki_00173::0"
+  ],
+  "relevant_sources": [
+   "wiki_00173"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "<南少林与北少林>是哪一年出品的电影？",
+  "relevant_chunks": [
+   "wiki_00174::0",
+   "wiki_00174::1"
+  ],
+  "relevant_sources": [
+   "wiki_00174"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "奥斯卡最佳视觉效果奖早期被称之为什么？",
+  "relevant_chunks": [
+   "wiki_00175::0",
+   "wiki_00175::1"
+  ],
+  "relevant_sources": [
+   "wiki_00175"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "哈林环球旅行者篮球队的总部位于哪里？",
+  "relevant_chunks": [
+   "wiki_00176::0",
+   "wiki_00176::1"
+  ],
+  "relevant_sources": [
+   "wiki_00176"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "王烈拜谁为师？",
+  "relevant_chunks": [
+   "wiki_00177::0"
+  ],
+  "relevant_sources": [
+   "wiki_00177"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "毕耀明现任哪所学校的校长？",
+  "relevant_chunks": [
+   "wiki_00178::0",
+   "wiki_00178::1"
+  ],
+  "relevant_sources": [
+   "wiki_00178"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "什么是石狩号护卫舰？",
+  "relevant_chunks": [
+   "wiki_00179::0"
+  ],
+  "relevant_sources": [
+   "wiki_00179"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《回到未来第三集》的主演人员有哪些？",
+  "relevant_chunks": [
+   "wiki_00180::0",
+   "wiki_00180::1",
+   "wiki_00180::2"
+  ],
+  "relevant_sources": [
+   "wiki_00180"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "士徽是什么人？",
+  "relevant_chunks": [
+   "wiki_00181::0"
+  ],
+  "relevant_sources": [
+   "wiki_00181"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "尚健的童名是什么？",
+  "relevant_chunks": [
+   "wiki_00182::0"
+  ],
+  "relevant_sources": [
+   "wiki_00182"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "长流村位于什么地方？",
+  "relevant_chunks": [
+   "wiki_00183::0"
+  ],
+  "relevant_sources": [
+   "wiki_00183"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "2003年Xenomai和RTAI项目合并推出了什么？",
+  "relevant_chunks": [
+   "wiki_00184::0",
+   "wiki_00184::1"
+  ],
+  "relevant_sources": [
+   "wiki_00184"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "洪龙浩出生于什么地方？",
+  "relevant_chunks": [
+   "wiki_00185::0"
+  ],
+  "relevant_sources": [
+   "wiki_00185"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "汉地是什么意思？",
+  "relevant_chunks": [
+   "wiki_00186::0",
+   "wiki_00186::1"
+  ],
+  "relevant_sources": [
+   "wiki_00186"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "电子出版又称什么？？",
+  "relevant_chunks": [
+   "wiki_00187::0",
+   "wiki_00187::1"
+  ],
+  "relevant_sources": [
+   "wiki_00187"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "欧洲足协赛事冠军球会领队列表记录了什么？",
+  "relevant_chunks": [
+   "wiki_00188::0"
+  ],
+  "relevant_sources": [
+   "wiki_00188"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "《我的快乐时代》是香港歌手谁的粤语音乐专辑？",
+  "relevant_chunks": [
+   "wiki_00189::0"
+  ],
+  "relevant_sources": [
+   "wiki_00189"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "寒鸦别名叫做什么？",
+  "relevant_chunks": [
+   "wiki_00190::0"
+  ],
+  "relevant_sources": [
+   "wiki_00190"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "屈万里是哪里人？",
+  "relevant_chunks": [
+   "wiki_00191::0"
+  ],
+  "relevant_sources": [
+   "wiki_00191"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "乌灰鸫又被称为什么？",
+  "relevant_chunks": [
+   "wiki_00192::0",
+   "wiki_00192::1"
+  ],
+  "relevant_sources": [
+   "wiki_00192"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "韦特恩湖是哪个国家的？",
+  "relevant_chunks": [
+   "wiki_00193::0"
+  ],
+  "relevant_sources": [
+   "wiki_00193"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "本条目以何方式介绍香港政府各决策科？",
+  "relevant_chunks": [
+   "wiki_00194::0"
+  ],
+  "relevant_sources": [
+   "wiki_00194"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "特雷维索足球俱乐部的英文名是什么？",
+  "relevant_chunks": [
+   "wiki_00195::0",
+   "wiki_00195::1"
+  ],
+  "relevant_sources": [
+   "wiki_00195"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "法夫纳这一形象在哪些书本中出现过？",
+  "relevant_chunks": [
+   "wiki_00196::0",
+   "wiki_00196::1"
+  ],
+  "relevant_sources": [
+   "wiki_00196"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "阿尔塔薛西斯一世是哪个国家的国王？",
+  "relevant_chunks": [
+   "wiki_00197::0"
+  ],
+  "relevant_sources": [
+   "wiki_00197"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "国际足联/国际职业球员联盟年度最佳阵容的前身是哪个组织？",
+  "relevant_chunks": [
+   "wiki_00198::0"
+  ],
+  "relevant_sources": [
+   "wiki_00198"
+  ],
+  "origin": "cmrc2018"
+ },
+ {
+  "question": "包天笑的原名叫什么？",
+  "relevant_chunks": [
+   "wiki_00199::0"
+  ],
+  "relevant_sources": [
+   "wiki_00199"
+  ],
+  "origin": "cmrc2018"
+ }
+]

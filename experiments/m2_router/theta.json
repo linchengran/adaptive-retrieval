@@ -1,0 +1,64 @@
+{
+  "theta": 0.02,
+  "tuned_on": "D:\\claude code use\\rag-research-project\\experiments\\splits\\dev.json",
+  "tolerance": 0.02,
+  "dev_rerank_hit@1": 0.8235,
+  "sweep": [
+    {
+      "theta": 0.02,
+      "hit@1": 0.8824,
+      "fast_path": 15,
+      "slow_path": 2,
+      "mean_ms": 23.57
+    },
+    {
+      "theta": 0.05,
+      "hit@1": 0.8235,
+      "fast_path": 9,
+      "slow_path": 8,
+      "mean_ms": 66.1
+    },
+    {
+      "theta": 0.08,
+      "hit@1": 0.8235,
+      "fast_path": 3,
+      "slow_path": 14,
+      "mean_ms": 110.75
+    },
+    {
+      "theta": 0.1,
+      "hit@1": 0.8235,
+      "fast_path": 0,
+      "slow_path": 17,
+      "mean_ms": 128.73
+    },
+    {
+      "theta": 0.12,
+      "hit@1": 0.8235,
+      "fast_path": 0,
+      "slow_path": 17,
+      "mean_ms": 130.21
+    },
+    {
+      "theta": 0.15,
+      "hit@1": 0.8235,
+      "fast_path": 0,
+      "slow_path": 17,
+      "mean_ms": 132.15
+    },
+    {
+      "theta": 0.2,
+      "hit@1": 0.8235,
+      "fast_path": 0,
+      "slow_path": 17,
+      "mean_ms": 132.47
+    },
+    {
+      "theta": 0.3,
+      "hit@1": 0.8235,
+      "fast_path": 0,
+      "slow_path": 17,
+      "mean_ms": 131.07
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "C-MTEB/CmedqaRetrieval + CmedqaRetrieval-qrels",
+  "n_queries": 200,
+  "n_docs": 787,
+  "n_chunks": 804,
+  "neg_per_query": 3,
+  "neg_source": "BM25 top-3 from pool 15307 (seed 42)",
+  "seed": 42,
+  "chunk_size": 512,
+  "chunk_overlap": 64,
+  "avg_chunk_chars": 169.0,
+  "cleaning": "无"
+}

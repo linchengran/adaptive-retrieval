@@ -1,0 +1,13 @@
+{
+  "source": "hfl/cmrc2018 train",
+  "n_queries": 200,
+  "n_docs": 749,
+  "n_chunks": 1079,
+  "neg_per_query": 3,
+  "neg_source": "BM25 top-3 from pool 2403 (seed 42, 前缀60字符近重复排除)",
+  "seed": 42,
+  "chunk_size": 512,
+  "chunk_overlap": 64,
+  "avg_chunk_chars": 368.8,
+  "cleaning": "无"
+}
